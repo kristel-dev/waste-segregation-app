@@ -198,7 +198,7 @@ All test cases passed successfully, confirming that the system functions correct
 ## Authors
 
 - Reniel Dave Gordola
-  GitHub: @renieldave
+  GitHub: @gordolarenieldave-hash
 
 - Kristel Kate Guray
   GitHub: @kristel-dev
@@ -207,5 +207,5 @@ All test cases passed successfully, confirming that the system functions correct
 
 In Partial Fulfillment of the Requirements for the Subject CC103 Computer Programming 2  
 Bachelor of Science in Information Technology at Sorsogon State University Bulan Campus.  
-Under the supervision of Professor John Mark Gabrentina.
+Under the Supervision of Professor John Mark Gabrentina.
 ```
