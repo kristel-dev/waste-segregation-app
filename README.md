@@ -40,32 +40,51 @@ Provides proper disposal instructions and feedback for each waste item, helping 
 
 ## Project Structure
 
-Spelling-Corrector-Application/
-- interfaces/
-  - __init__.py
-  - idata_service.py
-  - ispell_service.py
-- models/
-  - __init__.py
-  - word.py
-- services/
-  - __init__.py
-  - spell_service.py
-- tests/
-  - __init__.py
-  - test_spell_service.py
-  - test_algorithms.py
-  - test_processor.py
-- app_gui.py
-- main.py
-- processor.py
-- definitions.py
-- dictionary.txt
-- input_reader.py
-- output_writer.py
-- spell_checker_module.py
-- README.md
-- .gitignore
+waste_segregation-app/
+│
+├── .gitignore                          # Git ignore file
+├── .pytest_cache/                      # Pytest cache directory
+├── CACHEDIR.TAG                        # Cache directory tag
+├── README.md                           # Project documentation
+├── main.py                             # Main entry point of the application
+│
+├── application/                        # Core application logic
+│   ├── __pycache__/
+│   ├── __init__.py
+│   └── controller.py                   # Application controller
+│
+├── models/                             # Data model classes
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── disposal_guide.py               # Disposal guide model
+│   ├── waste_category.py               # Waste category model
+│   └── waste_item.py                   # Waste item model
+│
+├── repositories/                       # Data storage and retrieval
+│   ├── __pycache__/
+│   ├── __init__.py
+│   └── waste_repository.py             # Repository for waste data
+│
+├── services/                           # Business logic layer
+│   ├── __pycache__/
+│   ├── __init__.py
+│   └── waste_service.py                # Waste categorization service
+│
+├── strategies/                         # Strategy pattern implementations
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── input/                          # Input strategies (folder)
+│   ├── output/                         # Output strategies (folder)
+│   ├── output_strategy.py              # Output strategy interface/classes
+│   └── screen_display.py               # Screen display output strategy
+│
+└── tests/                              # Unit tests
+    ├── __pycache__/
+    ├── __init__.py
+    ├── test_models.py                  # Tests for models
+    ├── test_repository.py              # Tests for repositories
+    ├── test_service.py                 # Tests for services
+    └── test_strategies.py              # Tests for strategies
 
 
 ```
