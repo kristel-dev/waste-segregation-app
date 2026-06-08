@@ -41,79 +41,32 @@ Provides proper disposal instructions and feedback for each waste item, helping 
 ## Project Structure
 
 ```
-Waste-Segregation-App/
-
-|
-
-+-- application/
-
-|   +-- __init__.py
-
-|   +-- controller.py
-
-|
-
-+-- models/
-
-|   +-- __init__.py
-
-|   +-- disposal_guide.py
-
-|   +-- waste_category.py
-
-|   +-- waste_item.py
-
-|
-
-
-+-- services/
-
-|   +-- __init__.py
-
-|   +-- waste_service.py
-
-|
-+-- strategies/
-
-|   +-- input/
-
-|   |   +-- __init__.py
-
-|   |   +-- console_input.py
-
-|   |   +-- gui_input.py
-
-|   |   +-- input_strategy.py
-
-|   +-- output/
-
-|       +-- __init__.py
-
-|       +-- gui_display.py
-
-|       +-- output_strategy.py
-
-|       +-- screen_display.py
-
-|
-
-+-- tests/
-
-|   +-- __init__.py
-
-|   +-- test_models.py
-
-|   +-- test_repository.py
-
-|   +-- test_service.py
-
-|   +-- test_strategies.py
-
-|
-
-+-- main.py
-
-+-- README.md
+Spelling-Corrector-Application/
+- interfaces/
+  - __init__.py
+  - idata_service.py
+  - ispell_service.py
+- models/
+  - __init__.py
+  - word.py
+- services/
+  - __init__.py
+  - spell_service.py
+- tests/
+  - __init__.py
+  - test_spell_service.py
+  - test_algorithms.py
+  - test_processor.py
+- app_gui.py
+- main.py
+- processor.py
+- definitions.py
+- dictionary.txt
+- input_reader.py
+- output_writer.py
+- spell_checker_module.py
+- README.md
+- .gitignore
 
 ```
 
