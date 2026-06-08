@@ -40,7 +40,6 @@ Provides proper disposal instructions and feedback for each waste item, helping 
 
 ## Project Structure
 
-```
 Spelling-Corrector-Application/
 - interfaces/
   - __init__.py
@@ -68,9 +67,6 @@ Spelling-Corrector-Application/
 - README.md
 - .gitignore
 
-```
-
----
 
 ## Installation
 
