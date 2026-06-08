@@ -42,42 +42,79 @@ Provides proper disposal instructions and feedback for each waste item, helping 
 
 ```
 Waste-Segregation-App/
+
 |
+
 +-- application/
+
 |   +-- __init__.py
+
 |   +-- controller.py
+
 |
+
 +-- models/
+
 |   +-- __init__.py
+
 |   +-- disposal_guide.py
+
 |   +-- waste_category.py
+
 |   +-- waste_item.py
+
 |
+
+
 +-- services/
+
 |   +-- __init__.py
+
 |   +-- waste_service.py
+
 |
 +-- strategies/
+
 |   +-- input/
+
 |   |   +-- __init__.py
+
 |   |   +-- console_input.py
+
 |   |   +-- gui_input.py
+
 |   |   +-- input_strategy.py
+
 |   +-- output/
+
 |       +-- __init__.py
+
 |       +-- gui_display.py
+
 |       +-- output_strategy.py
+
 |       +-- screen_display.py
+
 |
+
 +-- tests/
+
 |   +-- __init__.py
+
 |   +-- test_models.py
+
 |   +-- test_repository.py
+
 |   +-- test_service.py
+
 |   +-- test_strategies.py
+
 |
+
 +-- main.py
+
 +-- README.md
+
 ```
 
 ---
