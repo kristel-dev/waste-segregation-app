@@ -68,6 +68,7 @@ Spelling-Corrector-Application/
 - .gitignore
 
 
+```
 ## Installation
 
 Prerequisites:
@@ -81,7 +82,6 @@ Steps:
    ```bash
    git clone https://github.com/kristel-dev/waste-segregation-app.git
    cd waste-segregation-app
-   ```
 
 2. Navigate to the application folder:
    ```bash
