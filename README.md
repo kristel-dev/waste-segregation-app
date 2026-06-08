@@ -1,8 +1,11 @@
-```markdown
 # Waste Segregation App
 
 ## Description
-The Waste Segregation App is a desktop-based tool developed in Python that helps users properly dispose of waste items by categorizing them into appropriate bins. The application uses the Strategy design pattern to support multiple input methods (console and GUI) and multiple output methods (screen display and GUI display). It helps users identify whether waste items should go to Recyclable, Organic, Hazardous, E-waste, or General waste bins.
+The Waste Segregation App is a user-friendly application designed to help users identify, classify, and properly dispose of different types of waste materials. The system promotes environmental awareness by providing accurate waste categories, disposal guidelines, and segregation tips to encourage responsible waste management.
+
+Users can search for a specific waste item, browse waste categories, or view all available waste materials in the database. The application automatically suggests matching items while typing, making it easier to find information quickly. Once an item or category is selected, the app displays proper disposal instructions and environmental reminders to guide users in handling waste responsibly.
+
+This project aims to support sustainable practices, improve waste segregation knowledge, and contribute to cleaner communities through accessible and educational technology.
 
 ---
 
