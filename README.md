@@ -1,3 +1,4 @@
+```
 # Waste Segregation App
 
 ## Description
