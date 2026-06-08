@@ -12,14 +12,14 @@ This project aims to support sustainable practices, improve waste segregation kn
 
 ## Features
 
-### Feature 1: Multiple Input Strategies
-Allows users to enter waste items through different methods - console input or graphical user interface (GUI).
+### Feature 1: Waste Item Search
+Allows users to search for a waste item by typing its name. The system provides auto-suggestions as the user types, validates the input, and displays the waste item with its correct category if found.
 
 ### Feature 2: Waste Categorization
-Identifies and categorizes waste items into appropriate disposal categories (Recyclable, Organic, Hazardous, E-waste, General) based on predefined guidelines.
+Allows users to browse and select a waste category from a dropdown menu. The system displays the selected category and allows the user to add items to that category.
 
 ### Feature 3: Disposal Guidance
-Provides proper disposal instructions and feedback for each waste item, helping users understand how to segregate waste correctly.
+Provides users with proper disposal instructions, tips, and environmental reminders based on the selected waste item or category. Users can copy the guide to the clipboard.
 
 ---
 
